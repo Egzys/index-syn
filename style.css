@@ -75,6 +75,11 @@ a {
 }
 .dot-design {
     cursor: pointer;
+      transition:
+        background-color 0.35s ease,
+        transform 0.35s ease,
+        border-color 0.35s ease,
+        box-shadow 0.35s ease;
 }
 .background-layer {
     position: fixed;
