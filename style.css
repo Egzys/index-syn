@@ -81,6 +81,9 @@ a {
         border-color 0.35s ease,
         box-shadow 0.35s ease;
 }
+.dot-design:hover {
+    transform: scale(1.1);
+}
 .background-layer {
     position: fixed;
     inset: 0;
@@ -173,6 +176,11 @@ i:hover{
 }
 .selected {
     background: var(--purple);
+        transform: scale(1.2);
+
+    box-shadow:
+        0 0 10px rgba(95, 0, 186, 0.7),
+        0 0 20px rgba(95, 0, 186, 0.4);
 }
 /*-----------------------------*/
 .footer-box {
